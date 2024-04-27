@@ -256,9 +256,9 @@ def display_raw_data(df):
     
     while True:
         # Prompt the user if they want to see raw data
-        user_input = input("\nWould you like to see 5 lines of raw data? Enter 'yes' or 'no': ").lower()
+        user_input = input("\nWould you like to see 5 lines of raw data? Enter 'y for yes' or 'n for no': ").lower()
         
-        if user_input != 'yes':
+        if user_input != 'y':
             # If the user doesn't want to see raw data, break the loop
             break
         
