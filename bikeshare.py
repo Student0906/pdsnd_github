@@ -256,14 +256,14 @@ def display_raw_data(df):
     
     while True:
         # Prompt the user if they want to see raw data
-        user_input = input("\nWould you like to see 5 lines of raw data? Enter 'yes' or 'no': ").lower()
+        user_input = input("\nWould you like to see 5 lines of raw data? Enter 'y for yes' or 'n for no': ").lower()
         
-        if user_input != 'yes':
+        if user_input != 'y':
             # If the user doesn't want to see raw data, break the loop
             break
         
-        # Print 5 lines of raw data
-        for index in range(start_row, start_row + 5):
+        # Print 10 lines of raw data
+        for index in range(start_row, start_row + 10):
             if index < len(df):
                 # Print the line of data at the current index
                 print(df.iloc[index])
@@ -292,8 +292,8 @@ def main():
         # Calling the new function to display raw data
         display_raw_data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        restart = input('\nWould you like to restart? Enter y for yes n or no.\n')
+        if restart.lower() != 'y':
             break
 
 
