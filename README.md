@@ -40,6 +40,7 @@ The Chicago and New York City files also have the following two columns:
 Anaconda Powershell Prompt -> For launching jupyter notebook and running the bikeshare.py
 Jupyter Notebook -> Python coding
 OpenAI's ChatGPT -> Coding & debugging support
+Microsoft's Copilot -> Coding & debugging support
 
 ```
 
