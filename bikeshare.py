@@ -262,8 +262,8 @@ def display_raw_data(df):
             # If the user doesn't want to see raw data, break the loop
             break
         
-        # Print 5 lines of raw data
-        for index in range(start_row, start_row + 5):
+        # Print 10 lines of raw data
+        for index in range(start_row, start_row + 10):
             if index < len(df):
                 # Print the line of data at the current index
                 print(df.iloc[index])
