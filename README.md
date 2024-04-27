@@ -21,7 +21,7 @@ Randomly selected data for the first six months of 2017 are provided for all thr
  `washington.csv` 
  ```
  
- contain the same core six (6) columns:
+ These file contain the same core six (6) columns:
 
     Start Time (e.g., 2017-01-01 00:07:57)
     End Time (e.g., 2017-01-01 00:20:53)
