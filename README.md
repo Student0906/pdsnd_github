@@ -14,7 +14,14 @@ Thanks to the rise in information technologies, it is easy for a user of the sys
 
 
 ### Files used
-Randomly selected data for the first six months of 2017 are provided for all three cities. These cities are: _Chicago, New York City and Washington_. All three of the data files, `chicago.csv`, `new_york_city.csv`, `washington.csv` contain the same core six (6) columns:
+Randomly selected data for the first six months of 2017 are provided for all three cities. These cities are: _Chicago, New York City and Washington_. These files are;
+```
+ `chicago.csv`
+ `new_york_city.csv`
+ `washington.csv` 
+ ```
+ 
+ contain the same core six (6) columns:
 
     Start Time (e.g., 2017-01-01 00:07:57)
     End Time (e.g., 2017-01-01 00:20:53)
