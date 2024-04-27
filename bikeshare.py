@@ -289,7 +289,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        # Call the new function to display raw data
+        # Calling the new function to display raw data
         display_raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
